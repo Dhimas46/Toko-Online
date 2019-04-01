@@ -1,0 +1,71 @@
+.judul{
+  color: #555;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+.table{
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th, .table td{
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.table th{
+  background: #eee;
+}
+
+.tombol{
+  display: inline-block;;
+  max-width: 150px;
+  padding: 15px 30px;
+  color: #fff;
+  text-decoration: none;
+  background: #038ade;
+  cursor: pointer;
+}
+
+.tombol.edit, .tombol.hapus{
+  padding: 10px 15px;
+  font-size: 12px;
+}
+.tombol .hapus{
+  background: #fc4c4c;
+}
+div.menu{
+  width: 100%;
+  background: #038ade;
+  position: sticky;
+  top:0;
+  left: 0;
+}
+
+div.menu ul{
+  list-style-type: none; /* menghilangkan bullet pada list */
+  overflow: hidden; /* menghilangkan scroll bar */
+  padding: 0; /* jarak antara border dengan konten (jarak dalam) */
+  margin: 0; /* jarak antara tiap elemen (jarak luar) */
+}
+
+div.menu li{
+  float:left; /* posisi element dari kanan */
+}
+
+div.menu li a{
+  text-decoration: none; /* menghilangkan garis bawah pada link */
+  color: #fff; /* warna font pada link */
+  text-align:center; /* rata tengah teks */
+  padding: 18px 20px; /* 13 untuk top & bottom, 15 untuk right & left */
+  font-size: 20px;
+  display: block; /* menampilkan elemen */
+}
+
+div.menu li a:hover{ /* mouseover -> ketika mouse meraba elemen */
+  background: #fff;
+  color: grey;
+  border: 2px solid #fff;
+  /* 2px itu tebalnya, solid itu tipe garis, red itu warna border */
+}
